@@ -36,7 +36,7 @@ A secure user registration application built with Java Spring Boot, MySQL, and A
 
 1. Clone the repository:
    ```bash
-   git clone YOUR_REPOSITORY_URL
+   git clone https://github.com/badhuio/adavancedSignup.git
    ```
 2. Create the `loginAdvanced` database in MySQL.
 3. Configure database credentials through environment variables or local configuration.
