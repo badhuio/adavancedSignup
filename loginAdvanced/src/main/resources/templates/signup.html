@@ -1,0 +1,38 @@
+<!doctype html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Signup</title>
+
+    <link rel="stylesheet" th:href="@{/css/signup.css}">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+<div class="signup-form">
+    <div class="signup-form-header"><h1>Signup</h1></div>
+    <div class="box">
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" placeholder="Enter your email address">
+        <label for="full_name">Full name : :</label>
+        <input type="text" name="full_name" id="full_name" placeholder="Enter your full name">
+        <label for="user_name">Username : </label>
+        <input type="text" name="user_name" id="user_name" placeholder="Enter your username">
+        <label for="dob">Dob : </label>
+        <input type="date" name="dob" id="dob" placeholder="Enter your dob">
+        <label for="country">Country :</label>
+        <input type="text" name="country" id="country" placeholder="Enter your country">
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password" placeholder="Enter your password">
+        <label for="confirm_password">Confirm Password : </label>
+        <input type="password" name="confirm_password" id="confirm_password">
+        <label for="terms_accepted">TermsAccepted : </label>
+        <input type="checkbox" name="terms_accepted" id="terms_accepted">
+    </div>
+
+    <button type="submit" id="signupUser">Create Account</button>
+</div>
+
+</body>
+
+        <script th:src="@{/js/signup.js}"></script>
+</html>
